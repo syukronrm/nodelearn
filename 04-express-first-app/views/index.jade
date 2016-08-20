@@ -3,8 +3,13 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  - var condition = true
   if condition
     p trueeee
   else
     p falsseeee
-  // h1= condition
+
+  - var array = [1,2,3]
+  each value in array
+    p= value
+
