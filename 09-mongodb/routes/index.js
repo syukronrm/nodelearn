@@ -1,36 +1,52 @@
 var express = require('express');
 var router = express.Router();
+var mongo = require('mongodb').MongoClient;
+var assert = require('assert');
+
+var url = 'mongodb:://localhost:27017/test';
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Form Validation', success: req.session.success, errors: req.session.errors });
-  req.session.errors = null;
-  req.session.success = null;
+  res.render('index'); 
 });
 
-router.post('/submit', function(req, res, next) {
-	// res.send(req.body);
-	// check validity using email attr in html forms
-	req.check('email', 'Invalid email address').isEmail();
-	req.check('password', 'Password is invalid').isLength({min: 4}).equals(req.body.confirmPassword);
+router.get('/get-data', function(req, res, next) {
+	var resultArray = [];
+	mongo.connect(url, function(err, db) {
+		assert.equal(null, err);
+		var cursor = db.collection('user-data').find();
+		cursor.forEach(function(doc, err) {
+			assert.equal(null, err);
+			resultArray.push(doc);
+		}, function() {
+			db.close();
+			res.render('index', {items: resultArray});
+		});
+	});
+});
 
-	var errors = req.validationErrors();
-	if (errors) {
-		req.session.errors = errors;
-		req.session.success = false;
-	} else {
-		req.session.success = true;
+router.post('/insert', function(req, res, next) {
+	var item = {
+		title : req.body.title,
+		content : req.body.content,
+		author : req.body.author,
 	}
-	res.redirect('/');
+	mongo.connect(url, function(err, db) {
+		assert.equal(null, err);
+		db.collection('user-data').insertOne(item, function(err, db) {
+			assert.equal(null, err);
+			console.log('Item inserted.');
+			db.close();
+		});
+	});
 });
 
-router.get('/test/:id', function(req, res, next) {
-  res.render('test', {output: req.params.id });
+router.post('/update', function(req, res, next) {
+	
 });
 
-router.post('/test/submit', function(req, res, next) {
-	var id = req.body.id;
-	res.redirect('/test/' + id);
+router.post('/delete', function(req, res, next) {
+	
 });
 
 module.exports = router;
