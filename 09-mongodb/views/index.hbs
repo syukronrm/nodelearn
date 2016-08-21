@@ -1,0 +1,35 @@
+<h1>{{ title }} </h1>
+
+{{#if success}}
+	<section class="success">
+		<h1>Success validation</h1>	
+	</section>
+{{else}}
+	{{#if errors}}
+		<section class="errors">
+			<ul>
+			{{#each errors}}
+				<li>{{this.msg}}</li>
+			{{/each}}
+			</ul>
+		</section>
+	{{/if}}
+<form action="/submit" method="post" accept-charset="utf-8">
+	<div class="input">
+		<label for="email">Email</label>
+		<br>
+		<input type="text" name="email" id="email">		
+	</div>
+	<div class="input">
+		<label for="password">Password</label>
+		<br>
+		<input type="password" name="password" id="password">		
+	</div>
+	<div class="input">
+		<label for="confirmPassword">Confirm Password</label>
+		<br>
+		<input type="password" name="confirmPassword" id="confirmPassword">
+	</div>
+	<button type="submit">Sign up</button>
+</form>
+{{/if}}
