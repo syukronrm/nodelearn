@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fs",
+				"fs.existsSync(path);"
+			],
+			[
+				"ProjeC",
+				"projects"
+			],
+			[
+				"proje",
+				"project-1	(ProjectsTableData.php)"
+			],
+			[
+				"pro",
+				"project_id"
+			],
+			[
+				"Book",
+				"BookController	(BookController.php)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Publish",
+				"PublishBookRequest"
+			],
+			[
+				"req",
+				"requestData"
+			],
+			[
+				"bir",
+				"birthord"
+			],
+			[
+				"birth",
+				"birthwgt_oz"
+			],
+			[
+				"bi",
+				"birthord"
+			],
+			[
+				"en",
+				"entries	(flaskr.py)"
+			],
+			[
+				"text",
+				"textarea	Tag"
+			],
+			[
+				"add",
+				"add_entry	(flaskr.py)"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"reu",
+				"return"
+			],
+			[
+				"rt",
+				"return"
+			],
+			[
+				"conne",
+				"connect_db"
+			],
+			[
+				"sql",
+				"sqlite_db"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: sear",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"SublimeREPL: Racket"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"python3",
+				"Build With: Python3"
+			],
+			[
+				"repl pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"py",
+				"SublimeREPL: Python - Sublime Text Console"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"bui",
+				"Build With: Python"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 384.0
+	},
+	"console":
+	{
+		"height": 132.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/syukron/nodejs/web/03-routing/server.js",
+		"/home/syukron/nodejs/web/04-express-first-app/bin/www",
+		"/var/www/html/l5todo/database/seeds/TasksTableSeeder.php",
+		"/var/www/html/l5todo/database/migrations/2016_07_20_195531_create_projects_and_tasks_table.php",
+		"/var/www/html/l5todo/app/Http/routes.php",
+		"/var/www/html/l5todo/database/seeds/DatabaseSeeder.php",
+		"/var/www/html/l5todo/database/seeds/ProjectsTableData.php",
+		"/var/www/html/l5todo/config/database.php",
+		"/opt/lampstack/apache2/htdocs/lara/app/Http/Controllers/BookController.php",
+		"/opt/lampstack/apache2/htdocs/lara/resources/views/books/bookList.blade.php",
+		"/opt/lampstack/apache2/htdocs/lara/app/Http/routes.php",
+		"/home/syukron/thinkstat/exercise.py",
+		"/home/syukron/thinkstat/survey_preg.py",
+		"/home/syukron/thinkstat/survey.py",
+		"/opt/lampstack/apache2/htdocs/lara/database/migrations/2016_07_20_103053_create_book_table.php",
+		"/opt/lampstack/apache2/htdocs/lara/app/Http/Requests/PublishBookRequest.php",
+		"/home/syukron/Python/venv/flask/flaskr.py",
+		"/home/syukron/Python/venv/flask/templates/layout.html",
+		"/home/syukron/Python/venv/flask/templates/show_entries.html",
+		"/home/syukron/Python/venv/flask/templates/login.html",
+		"/home/syukron/Python/venv/flask/hello.py",
+		"/home/syukron/Python/venv/flask/schema.sql",
+		"/home/syukron/Python/diveintopython3/examples/untitled.py",
+		"/home/syukron/untitled.py",
+		"/home/syukron/.config/sublime-text-3/Packages/anaconda/Anaconda.sublime-settings"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"responde",
+			"ReadRecords",
+			"obj",
+			"birthwgt_lb",
+			"birthord",
+			"records",
+			"makereco",
+			"readfile",
+			"GetFields",
+			"a",
+			" "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.nodejs":
+	{
+		"height": 150.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "layout.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
